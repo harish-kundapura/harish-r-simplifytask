@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #333;
+}
+
+.rotateLogo{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 170px !important;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    background-color: transparent;
+    border: 30px solid;
+    border-color:rgb(222,119,91) rgb(196,189,168) rgb(82,168,238) rgb(166,214,166);
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rotateLogo .text{
+    transform: rotate(-45deg);
+    text-align: center;
+}
+
+.text h1{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.text p{
+    color: #fff;
+}
